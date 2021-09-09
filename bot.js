@@ -3,7 +3,7 @@ const{ Telegraf } = require('telegraf')
 const bot = new Telegraf('1926175449:AAGxzdrLrxyGHEVIp4b84I2S3-cZDpgtrW8');
 
 bot.start((ctx) => {
-    ctx.reply('Bienvenidos al Grupo de Metodos Nivelacion - I\n'+
+    ctx.reply('Bienvenidos al Grupo de Tecnologías de la Educación y comunicación en la Educación\n'+
     '\nFui creado para realizar una automatizacion de las cosas que se necesitan a la mano\n'+
     '\n Si Tu deseas saber alguna de las cosas que puede ayudarte a realizar este pob puedes escribir /help\n'+
     '\nCreado y desarrolado por: \n Ing. Francisco Daniel Martinez.\n  El dia 26 Enero del 2021.'
