@@ -18,7 +18,9 @@ bot.help((ctx) => {
     '\n/clase                 Aqui tendras la direccion del link para la sesion de meet\n'+
     '\n/maestro               Aqui tendras los datos de la maestra, recuerda, el tambien suele estar ocupado.\n'+
     '\n/clave                 Aqui tienes la clave del ID de acceso a class room.\n'+
-    '\n/fecha                 Si deseas saber la hora y la fecha actual.\n'+
+    '\n/horario               Aqui tienes el horario.\n'+
+    '\n/calendario            Aqui tienes el calendario de este cuatrimestre.\n'+
+    '\n/fecha                 Si deseas saber la hora y la fecha del servidor.\n'+
     '\n/programador           Necesitas ayuda sobre el bot? o algun error de este.\n'+
     '\n/settings               Aqui Tienes las tecnologias de que me hace funcionar, recuerda soy un robot, no un humano.');
 })
@@ -117,13 +119,17 @@ bot.command('programador', ctx =>{
     */
 })
 //Mandar Documentos
-bot.command('congreso', ctx =>{
-    ctx.reply('Hola'+ ' '+ ctx.from.first_name + ' ' + "Aqui tienes los datos del congreso y los talleres." );
+bot.command('horario', ctx =>{
+    ctx.reply('Hola'+ ' '+ ctx.from.first_name + ' ' + "Aqui esta su horario completo." );
     ctx.replyWithDocument({
-        source : 'docs/Programa Congreso Cartel.pdf'
+        source : 'docs/horario.jpeg'
     })
+})
+
+bot.command('calendario', ctx =>{
+    ctx.reply('Hola'+ ' '+ ctx.from.first_name + ' ' + "Aqui esta su horario completo." );
     ctx.replyWithDocument({
-        source : 'docs/TALLERES_CONGRESO VIRTUAL.docx'
+        source : 'docs/calendar.jpeg'
     })
 })
 
