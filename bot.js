@@ -107,7 +107,7 @@ bot.command('programador', ctx =>{
     '\n Tel: 5586135682\n'+
     '\nCorreo Electronico: franiciscodaniel97@gmail.com\n'+
     '\nPuedes Visitar su Pagina Web para conocer un poco mas de el:\n'+
-    '\nhttps://pakopank97.github.io/portafolio/n');
+    '\nhttps://pakopank97.github.io/portafolio');
 
     //ctx.reply('Aqui tienes su CV actualizado')
 
