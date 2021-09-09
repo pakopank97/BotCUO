@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon bot.js"
+    "dev": "node bot.js"
   },
   "keywords": [],
   "author": "Francisco Daniel Martinez Martinez",
