@@ -80,7 +80,7 @@ bot.command('fecha', (ctx) =>
   let minutos = fecha.getMinutes();
   let segundos = fecha.getSeconds();
 
-  ctx.replyWithHTML("Fecha y hora en el sistema:<b> "+dia + "/" + mes + "/" + anio+" "+horas+ ":" +minutos+ ":" +segundos+"</b>");
+  ctx.replyWithHTML("Fecha y hora del serivdor, que esta en United States Stack: heroku-20 :<b> "+dia + "/" + mes + "/" + anio+" "+horas+ ":" +minutos+ ":" +segundos+"</b>");
 });
 
 bot.hears(/tarea/i, (ctx) => {
