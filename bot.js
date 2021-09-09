@@ -65,6 +65,10 @@ bot.command('clave', ctx =>{
     '\nRecuerda que todo es en la platafroma de \nhttps://classroom.google.com/c/MzgwMDk5NjUyOTY5?cjc=r2uh5iu\n'+
     '\nRecuerda que es unicamente con el correo institucional\n');
 })
+
+bot.command('p', ctx=>{
+    ctx.reply('Esto es una pruena simple')
+})
 //Fecha desde el sistema con el metodo replyWithHTML
 bot.command('fecha', (ctx) =>
 {
