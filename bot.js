@@ -38,20 +38,20 @@ bot.settings((ctx) => {
 bot.command('programa', (ctx) => {
     ctx.reply('Hola' + ' '+ctx.from.first_name + ' '+'Aqui tienes el programa de la materia, es un placer ayudarte.');
     ctx.replyWithDocument({
-        source :'docs/DOSIFICACIÓN Tecnologias Agosto 2021.pdf'
+        source :'docs/DOSIF Teorías y Modelos de Educación a Distancia.pdf'
     });
 })
 
 bot.command('clase', (ctx) => {
     ctx.reply('Hola' + ' '+ctx.from.first_name + ' '+ ' aqui tienes lo que necesitas.');
-    ctx.reply('Tema: LE07 Tecnologías de la Educación y comunicación en la Educación\n'+
+    ctx.reply('Tema: Licenciatura en Educación\n'+
     '\nHora: Este es una reunión recurrente Reunirse en cualquier momento\n'+
     
     '\nUnirse a la reunión meet\n'+
-    '\nhttps://meet.google.com/lookup/cd53ge37gh?authuser=0&hs=179\n'+
+    '\nhttps://meet.google.com/bhk-hsas-qdp\n'+
     
-    '\nID de reunión: cd53ge37gh\n'+
-    '\nCódigo de acceso: 285 403 893#');
+    '\nID de reunión: bhk-hsas-qdp\n'+
+    '\nCódigo de acceso: 147 236 538#');
 })
 
 bot.command('maestro', ctx=> {
@@ -64,7 +64,7 @@ bot.command('maestro', ctx=> {
 
 bot.command('clave', ctx =>{
     ctx.reply('Hola'+ ' '+ctx.from.first_name+' '+ 'La clave que necesitas es\n r2uh5iu\n'+
-    '\nRecuerda que todo es en la platafroma de \nhttps://classroom.google.com/c/MzgwMDk5NjUyOTY5?cjc=r2uh5iu\n'+
+    '\nRecuerda que todo es en la platafroma de \nhttps://classroom.google.com/c/NDUwMjI1OTY2MTY3?cjc=glgzmyqn'+
     '\nRecuerda que es unicamente con el correo institucional\n');
 })
 
@@ -105,7 +105,7 @@ bot.on('voice', ctx => {
 bot.command('programador', ctx =>{
     ctx.reply('Hola'+ ' '+ctx.from.first_name+' '+ 'si deseas aportar algo a mi,'+'los datos de la persona que me realizo son:\n'+
     '\nSu Nombre es Francisco Daniel Martinez, es Tecnico en programacion y Ingeniero en Sistemas Computacionales.\n'+
-    '\nSi deseas contratar su servicio para realizar una aplicacion, pagina web, una computadora a tu medida, uun bot como yo, o cualquiero cosa que se te pueda imaginar, contactalo.\n'+
+    '\nSi deseas contratar su servicio para realizar una aplicacion, pagina web, una computadora a tu medida, un bot como yo, o cualquiero cosa que se te pueda imaginar, contactalo.\n'+
     '\n Tel: 5586135682\n'+
     '\nCorreo Electronico: franiciscodaniel97@gmail.com\n'+
     '\nPuedes Visitar su Pagina Web para conocer un poco mas de el:\n'+
@@ -136,5 +136,7 @@ bot.command('calendario', ctx =>{
 bot.on('sticker', ctx => {
     ctx.reply('Que lindo sticker'+' '+ ctx.from.first_name+' '+'Esta muy bonito ♥');
 })
+
+
 //Esto Nos inicia el bot
 bot.launch()
