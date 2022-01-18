@@ -3,7 +3,7 @@ const{ Telegraf } = require('telegraf')
 const bot = new Telegraf('1926175449:AAGxzdrLrxyGHEVIp4b84I2S3-cZDpgtrW8');
 
 bot.start((ctx) => {
-    ctx.reply('Bienvenidos al Grupo de Tecnologías de la Educación y comunicación en la Educación\n'+
+    ctx.reply('Bienvenidos al Grupo de Teorías y Modelos de Educación a Distancia\n'+
     '\nFui creado para realizar una automatizacion de las cosas que se necesitan a la mano\n'+
     '\n Si Tu deseas saber alguna de las cosas que puede ayudarte a realizar este pob puedes escribir /help\n'+
     '\nCreado y desarrolado por: \n Ing. Francisco Daniel Martinez.\n  El dia 26 Enero del 2021.'
@@ -26,7 +26,7 @@ bot.help((ctx) => {
 })
 
 bot.settings((ctx) => {
-    ctx.reply('Hola'+ ' '+ctx.from.first_name + ' '+ 'Soy el TecInfCom_bot y estoy en mi version 2.0.2 asi que no soy perfecto\n'+
+    ctx.reply('Hola'+ ' '+ctx.from.first_name + ' '+ 'Soy el TecInfCom_bot y estoy en mi version 3.0.1 asi que no soy perfecto\n'+
     '\nEstoy Creado con Node.js en su version 6.14.10\n'+
     '\nMe ayudo de la API de TELEGRAF en su version 4.0.1\n'+
     '\nYa vivo en la nube, asi que estoy las 24hrs Trabajo con lenguaje de Java Script y actualmente vivo en Heroku, es muy guapo mi creador por cierto, lo puedes buscar en Instagram como @pakopank_97\n'+
